@@ -1,3 +1,6 @@
+#pragma once
+#include <string>
+
 class Person {
   private:
     std::string firstname;
@@ -7,5 +10,3 @@ class Person {
   public:
     Person(std::string first, std::string last, int arbitrary);
 }
-
-
