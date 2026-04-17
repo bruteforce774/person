@@ -1,5 +1,6 @@
 class Person {
-  std::string firstname;
-  std::string lastname;
-  int arbitrarynumber;
+  private:
+    std::string firstname;
+    std::string lastname;
+    int arbitrarynumber;
 }
